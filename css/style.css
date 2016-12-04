@@ -480,7 +480,8 @@ h1, h2, h3, h4, h5, h6 {
 	background: #fff;
 	flex: 0 0 31.5%;
 	-webkit-flex: 0 0 31.5%;
-	margin: 0 0 25px;
+	/*margin: 0 0 25px; for multiple*/
+  margin: auto;
 	overflow: hidden;
 	border: 1px solid #e1e1e1;
 }
@@ -695,16 +696,13 @@ footer p {
     text-align: center;
   }
 
-  /*.about_section .about_quote {
-    border-bottom: 1px solid #e1e1e1;
-  }*/
-
 	#portfolio { padding: 80px 25px 65px; }
 
 	.works article {
 		flex: 0 0 48%;
 		-webkit-flex: 0 0 48%;
-		margin: 0 0 15px;
+		/*margin: 0 0 15px; for multiple*/
+    margin: auto;
 	}
 
 	.featherlight .featherlight-close-icon { top: -20px !important; }
@@ -717,6 +715,7 @@ footer p {
 	.works article {
 		flex: 0 0 100%;
 		-webkit-flex: 0 0 100%;
+    margin: auto; /*for one*/
 	}
 
 	.info div {
