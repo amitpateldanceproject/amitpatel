@@ -598,6 +598,45 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 15px 0;
 }
 
+#mc_embed_signup {
+  margin-bottom: 30px;
+}
+
+#mc_embed_signup_scroll {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.email_signup_form #mc_embed_signup input[type="email"]{
+  flex: 0 0 70%;
+  -webkit-flex: 0 0 70%;
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  color: #999;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  margin: auto 0;
+}
+
+.subscribe_button {
+  flex: 0 0 30%;
+  -webkit-flex: 0 0 30%;
+  margin: auto;
+
+}
+
+#mc-embedded-subscribe{
+  width: 90%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  border: none;
+}
+
 /* Social icons */
 .social {
 	max-width: 250px;
@@ -709,6 +748,22 @@ footer p {
 	.featherlight-iframe .featherlight-content { width: 65% !important; }
 
 	.container_footer { padding: 60px 25px; }
+
+  /* Mailchimp form */
+  #mc_embed_signup_scroll {
+    display: block;
+  }
+  .email_signup_form #mc_embed_signup input[type="email"] {
+    /*flex: 1 100%;
+		-webkit-flex: 1 100%;*/
+    width: 100%;
+  }
+
+  .subscribe_button {
+    width: 100%;
+    margin-top: 30px;
+  }
+
 }
 
 @media (max-width: 480px) {
