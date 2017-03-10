@@ -480,8 +480,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: #fff;
 	flex: 0 0 31.5%;
 	-webkit-flex: 0 0 31.5%;
-	/*margin: 0 0 25px; for multiple*/
-  margin: auto;
+	margin: 0 0 25px; /*for multiple*/
 	overflow: hidden;
 	border: 1px solid #e1e1e1;
 }
@@ -740,8 +739,7 @@ footer p {
 	.works article {
 		flex: 0 0 48%;
 		-webkit-flex: 0 0 48%;
-		/*margin: 0 0 15px; for multiple*/
-    margin: auto;
+		margin: 0 0 15px; /*for multiple*/
 	}
 
 	.featherlight .featherlight-close-icon { top: -20px !important; }
